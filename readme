@@ -1,0 +1,44 @@
+
+                              rwall.c
+              <a small window to select your wallpaper>
+
+features:
+• visual gtk window for selecting your wall
+• cache suport for more speedy opening
+
+see ./makefile for a easy installation
+
+
+§ installation
+
+git clone https://github.com/getjared/rwall.git
+cd rwall
+make
+sudo make install
+
+
+§ dependencies
+
+• c compiler (gcc or clang)
+• make
+• json-glib
+• libsoup
+
+
+§ quick-start
+
+run it in the background through your .xinitrc
+  • rwall --n &
+
+once setup, you can create a keybind in something sxhkd
+  # rwall
+  super + w
+  	rwall
+
+there are 3 different options
+• rwall --r (rounded corners)
+• rwall --t (transparency)
+• rwall --b (grab random wall from wallhaven)
+
+key bindings:
+q : quit the window
