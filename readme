@@ -30,7 +30,7 @@ sudo make install
 run it in the background through your .xinitrc
   • rwall --n &
 
-once setup, you can create a keybind in something sxhkd
+once setup, you can create a keybind in something sxhkd, or run it directly in your terminal
   # rwall
   super + w
   	rwall
