@@ -16,6 +16,9 @@ cd rwall
 make
 sudo make install
 
+!! make sure to change your wallpaper directory !!
+#define WALLPAPER_DIR "/home/jared/wallpapers"
+
 
 § dependencies
 
