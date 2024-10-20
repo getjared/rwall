@@ -21,6 +21,7 @@ sudo make install
 
 • c compiler (gcc or clang)
 • make
+• feh
 • json-glib
 • libsoup
 
@@ -48,3 +49,5 @@ q : quit the window
 
 the flags for --r & --t require a compositor like picom or something else to take effect
 you can still use the application even if you try to use the flags without one.
+
+it's not really pretty and i made it pretty fast, so feel free to make it better..
