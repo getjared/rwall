@@ -42,3 +42,9 @@ there are 3 different options
 
 key bindings:
 q : quit the window
+
+
+§ note
+
+the flags for --r & --t require a compositor like picom or something else to take effect
+you can still use the application even if you try to use the flags without one.
